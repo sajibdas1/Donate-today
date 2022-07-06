@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-size: cover;
     padding: 50px;
+    height: 400px;
 
 }
 
@@ -83,8 +84,73 @@ h2 {
     margin-right: 10%;
 }
 
-.link-button2 {
-    padding: ;
-    text-decoration: none;
-    background-image: linear-gradient(#79421b, #7a8117);
+
+
+
+
+.donate-plan {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+
+.poor {
+    padding: 30px;
+    margin: 0 10px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px gray;
+}
+
+.container {
+    display: flex;
+
+}
+
+.donation-box {
+    width: 50%;
+}
+
+.pepole-donati-pic {
+    width: 80%;
+    border-radius: 30px;
+
+}
+
+.end-word {
+    text-align: center;
+}
+
+.ending-from {
+    background-color: #c9ba91;
+    padding: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+
+}
+
+.contacts {
+    display: flex;
+    border-radius: 9px;
+    background-color: #ad9999;
+
+}
+
+.email {
+    color: #967676;
+    padding-left: 35px;
+    width: 70%;
+}
+
+.subscribe {
+    padding-left: 80px;
+    width: 30%;
+    background-color: #FF5959;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
 }
